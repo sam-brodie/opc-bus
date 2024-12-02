@@ -1,6 +1,6 @@
 #include "IsobusCommon.h"
 #include "IsobusOpcUaLayer.h"
-#include "IsobusTaskController.h"
+//#include "IsobusTaskController.h"
 
 #include <canlib.h>
 
@@ -23,7 +23,7 @@
 //edited from the original ua_config_default.c (which was published with CCZero licence)
 
 
-//TODO: this shouldn't be here, it was copied from ua_config_default.c
+//TODO: this is a redefinition from ua_config_default.c
 #define MANUFACTURER_NAME "open62541"
 #define PRODUCT_NAME "open62541 OPC UA Server"
 #define PRODUCT_URI "http://open62541.org"
